@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="8dp">
+
+
+    <ImageView
+        android:id="@+id/pizzaimg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="2dp"
+        android:maxWidth="70dp"
+        android:maxHeight="70dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pizzaname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:text="pizza quoi"
+        app:layout_constraintStart_toEndOf="@+id/pizzaimg"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintStart_toStartOf="@+id/pizzaname"
+        app:layout_constraintTop_toBottomOf="@+id/pizzaname" />
+
+    <ImageView
+        android:id="@+id/horloge"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/pizzaimg"
+        app:layout_constraintStart_toStartOf="@+id/icon" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="exemple"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/horloge"
+        app:layout_constraintTop_toTopOf="@+id/horloge" />
+
+    <ImageView
+        android:id="@+id/flech"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginRight="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/icon" />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        app:layout_constraintBottom_toBottomOf="@+id/icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="12dp"
+        android:layout_height="27dp"
+        android:text="fff"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
