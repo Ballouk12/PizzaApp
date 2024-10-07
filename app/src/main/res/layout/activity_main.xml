@@ -25,8 +25,9 @@
         android:layout_marginTop="20sp"
         android:text="Pizza recips"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:textStyle="italic"
+        android:fontFamily="cursive"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -39,8 +40,9 @@
         android:text="Make your Pizza "
         android:textColor="@color/white"
         android:textFontWeight="@integer/material_motion_duration_long_2"
-        android:textSize="15sp"
+        android:textSize="20sp"
         android:textStyle="italic"
+        android:fontFamily="cursive"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />

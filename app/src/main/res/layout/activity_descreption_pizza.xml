@@ -20,6 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:title="Pizza Recips"
+        android:fontFamily="cursive"
         app:titleTextColor="#FFFFFF"
         app:menu="@menu/menu"/>
 
@@ -42,7 +43,8 @@
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="@+id/pizzaimg2"
         app:layout_constraintStart_toStartOf="@+id/pizzaimg2"
-        app:layout_constraintTop_toBottomOf="@+id/pizzaimg2" />
+        app:layout_constraintTop_toBottomOf="@+id/pizzaimg2"
+        android:fontFamily="cursive"/>
 
     <TextView
         android:id="@+id/description2"
@@ -54,7 +56,8 @@
         android:textSize="26dp"
         android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pizzaname2" />
+        app:layout_constraintTop_toBottomOf="@+id/pizzaname2"
+        android:fontFamily="cursive"/>
 
     <TextView
         android:id="@+id/descriptionText"
@@ -62,11 +65,13 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="14dp"
         android:layout_marginRight="18dp"
+        android:textSize="12dp"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/description2"
-        app:layout_goneMarginLeft="18dp" />
+        app:layout_goneMarginLeft="18dp"
+        android:fontFamily="sans-serif"/>
 
     <TextView
         android:id="@+id/ingredients"
@@ -78,7 +83,8 @@
         android:textSize="26dp"
         android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/descriptionText" />
+        app:layout_constraintTop_toBottomOf="@+id/descriptionText"
+        android:fontFamily="cursive"/>
 
     <TextView
         android:id="@+id/ingredientsText"
@@ -87,6 +93,8 @@
         android:layout_marginTop="8dp"
         android:layout_marginLeft="14dp"
         android:layout_marginRight="18dp"
+        android:fontFamily="sans-serif"
+        android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingredients" />
